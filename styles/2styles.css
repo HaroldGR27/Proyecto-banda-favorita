@@ -1,0 +1,27 @@
+html{
+    --bg-color: #3F7D58;
+    --input-color: #EF9651;
+    --a-color: #EC5228;
+    --hg-color: #EFEFEF;
+
+    background-color: var(--bg-color);
+    color: var(--hg-color);
+
+    text-align: center;
+}
+
+a{
+    background-color: var(--a-color);
+    color: var(--hg-color);
+}
+
+input#caja{
+    width: 1335px;
+    height: 300px;
+    display: block;
+}
+
+input#boton{
+    color: var(--hg-color);
+    background-color: var(--input-color);
+}
